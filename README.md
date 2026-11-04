@@ -1,4 +1,4 @@
-# 🎓 EDUcate — Plataforma Educativa Solidaria (ODS 17 & ODS 4)
+# EDUcate — Plataforma Educativa Solidaria (ODS 17 & ODS 4)
 
 [![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.2.10-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Propósito y Visión](#-propósito-y-visión)
 - [Características Principales](#-características-principales)
@@ -28,7 +28,7 @@
 
 ---
 
-## 🌍 Propósito y Visión
+## Propósito y Visión
 
 La educación es un motor fundamental para el desarrollo humano, sin embargo, millones de jóvenes enfrentan barreras económicas y de acceso a contenidos universitarios y técnicos de calidad.
 
@@ -39,7 +39,7 @@ La educación es un motor fundamental para el desarrollo humano, sin embargo, mi
 
 ---
 
-## ✨ Características Principales
+## Características Principales
 
 ### 1. Módulo de Estudiante
 - **Panel de Control (Dashboard)**: Métricas en tiempo real de cursos activos, tareas pendientes, promedio de calificaciones ponderado y notificaciones de avisos docentes.
@@ -62,7 +62,7 @@ La educación es un motor fundamental para el desarrollo humano, sin embargo, mi
 
 ---
 
-## 🏛 Arquitectura de Software
+## Arquitectura de Software
 
 La aplicación sigue el patrón arquitectónico oficial recomendado por Google: **MVVM (Model - View - ViewModel)** combinado con principios de **Clean Architecture** y flujo de datos unidireccional (**UDF - Unidirectional Data Flow**).
 
@@ -96,7 +96,7 @@ La aplicación sigue el patrón arquitectónico oficial recomendado por Google: 
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 EDUcate/
@@ -162,7 +162,7 @@ EDUcate/
 
 ---
 
-## 🌐 API REST y Modo Híbrido / Offline
+## API REST y Modo Híbrido / Offline
 
 La app está diseñada para conectarse a un servicio backend REST mediante las siguientes rutas:
 
@@ -181,7 +181,7 @@ La app está diseñada para conectarse a un servicio backend REST mediante las s
 
 ---
 
-## 💻 Requisitos de Instalación
+## Requisitos de Instalación
 
 1. **Java Development Kit (JDK)**: JDK 11 o JDK 17 configurado en el entorno.
 2. **Android Studio**: Android Studio Koala / Ladybug / Meerkat o superior.
@@ -192,13 +192,10 @@ La app está diseñada para conectarse a un servicio backend REST mediante las s
 
 ---
 
-## 🚀 Ejecución y Despliegue
+## Ejecución y Despliegue
 
 ### Desde Android Studio
-1. Clona o abre el directorio del proyecto en Android Studio:
-   ```bash
-   cd c:\Users\oscar\AndroidStudioProjects\EDUcate
-   ```
+1. Clona el directorio del proyecto en Android Studio
 2. Espera a que Gradle termine de sincronizar las dependencias (`Sync Project with Gradle Files`).
 3. Selecciona un dispositivo virtual (AVD) o un teléfono físico con depuración USB habilitada.
 4. Presiona el botón **Run** (`Shift + F10`).
@@ -219,20 +216,20 @@ La app está diseñada para conectarse a un servicio backend REST mediante las s
 
 ---
 
-## 👤 Usuarios Demo para Pruebas
+## Usuarios Demo para Pruebas
 
 Para facilitar la navegación y evaluación de la aplicación sin necesidad de una base de datos externa, se encuentran preconfiguradas las siguientes cuentas:
 
 | Rol | Correo Electrónico | Contraseña | Nombre | Funcionalidades Clave |
 |---|---|---|---|---|
-| 🧑‍🎓 **Estudiante** | `ana.lopez@universidad.edu` | *(Cualquiera)* | Ana López | Cursos activos, entrega de tareas, agenda, calificaciones y donaciones. |
-| 👩‍🏫 **Profesor Voluntario** | `elena.ruiz@universidad.edu` | *(Cualquiera)* | Dra. Elena Ruiz | Panel docente, revisión de entregas pendientes, calificación y creación de módulos. |
+| **Estudiante** | `ana.lopez@universidad.edu` | *(Cualquiera)* | Ana López | Cursos activos, entrega de tareas, agenda, calificaciones y donaciones. |
+| **Profesor Voluntario** | `elena.ruiz@universidad.edu` | *(Cualquiera)* | Dra. Elena Ruiz | Panel docente, revisión de entregas pendientes, calificación y creación de módulos. |
 
 > [!TIP]
 > También puedes alternar rápidamente de rol en cualquier momento desde el diálogo de usuario en el encabezado superior o desde la pantalla de login mediante los selectores rápidos.
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
